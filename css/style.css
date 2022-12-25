@@ -1,10 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
-h1 {
-  color: red;
-}
-
 .container {
   max-width: 1200px;
   width: 100%;
@@ -322,6 +318,230 @@ h1 {
     margin-top: 30px !important;
   }
 }
+.moreBrend {
+  padding-top: 160px;
+}
+
+section .container .row-in_gap {
+  margin-top: 20px;
+}
+section .container .row-in_gap .row-in_col {
+  max-width: 570px;
+  height: 196px;
+  border-radius: 20px;
+  background-color: #f5f5f5 !important;
+}
+section .container .row-in_gap .row-in_col h3,
+section .container .row-in_gap .row-in_col i {
+  padding: 20px 32px;
+}
+section .container .row-in_gap .row-in_col p {
+  max-width: 354px;
+  max-height: 184px;
+  text-align: start;
+  padding: 0 32px 20px;
+}
+section .container .row-in_gap:hover .row-in_col {
+  background-color: #299764 !important;
+}
+section .container .row-in_gap:hover .row-in_col h3,
+section .container .row-in_gap:hover .row-in_col i,
+section .container .row-in_gap:hover .row-in_col p {
+  color: white !important;
+}
+
+.container_card .title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  /* identical to box height */
+  /* Text/Primary */
+  color: #000000;
+}
+.container_card .desc {
+  max-width: 590px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  color: #555555;
+}
+.container_card .cardsWrapper {
+  margin-top: 94px;
+  margin-bottom: 32px;
+  position: relative;
+}
+.container_card .card {
+  padding: 15px;
+  background: #f5f5f5;
+  border-radius: 16px;
+  box-shadow: none;
+}
+.container_card .card .icons {
+  padding-top: 5px;
+  padding-right: 5px;
+  text-align: end;
+}
+.container_card .card .card-text {
+  margin-top: 29px;
+}
+.container_card .card .card-text p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  /* or 138% */
+  display: flex;
+  align-items: flex-end;
+  color: #000000;
+}
+.container_card .card:hover {
+  background: #299764;
+  color: #fff;
+}
+.container_card .card:hover .card-text p {
+  color: #fff;
+}
+.container_card .border12 {
+  background: #ffffff;
+  border: 1.5px solid #e5e7ea;
+  border-radius: 20px;
+  padding: 32px 32px 0 32px;
+  overflow: hidden;
+}
+.container_card .cardWrapperImg {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.container_card .cardWrapperImg .personImg {
+  margin: auto;
+  position: absolute;
+  z-index: 1;
+}
+.container_card .cardWrapperImg .leoLine {
+  background: #299764;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  top: 0%;
+  left: 50%;
+  margin-top: 140px;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+.container_card .cars-name {
+  display: flex;
+  justify-content: space-between;
+  overflow-x: scroll;
+  width: 100%;
+}
+
+.imgBrend {
+  margin: 0 20px;
+}
+
+.Unparalleled {
+  margin-top: 160px;
+}
+
+@media only screen and (max-width: 992px) {
+  .cars-name {
+    overflow: auto;
+    width: 100% !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .sm-mt {
+    margin-top: 10px !important;
+  }
+  .cardWrapperImg {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  .cardWrapperImg .personImg {
+    margin: auto;
+    position: absolute;
+    z-index: 1;
+    display: none;
+  }
+  .cardWrapperImg .leoLine {
+    background: #299764;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    top: 0%;
+    left: 50%;
+    transform: none;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    display: none;
+    top: -100px;
+  }
+}
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  background: none;
+}
+
+/* directional buttons */
+::-webkit-scrollbar-button {
+  width: 0;
+  height: 0;
+  display: none;
+}
+
+/* empty space "below" the progress bar */
+::-webkit-scrollbar-track {
+  background: none;
+}
+
+/* top-most layer of the progress bar not covered by the draggable scrolling element */
+::-webkit-scrollbar-track-piece {
+  background: none;
+}
+
+/* draggable scrolling element that resizes depending on the size of the scrollable element */
+::-webkit-scrollbar-thumb {
+  border: 4px solid transparent;
+  border-radius: 99px;
+  background-color: rgba(88, 89, 91, 0.2);
+  box-sizing: border-box;
+  background-clip: padding-box;
+  padding: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(88, 89, 91, 0.6);
+}
+
+/* the (usually) bottom corner of the scrollable element, where two scrollbars might meet */
+::-webkit-scrollbar-corner {
+  background: none;
+}
+
 .footer {
   margin-top: 40px;
   padding: 10px 0 40px 0;
