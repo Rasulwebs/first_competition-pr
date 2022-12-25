@@ -147,6 +147,7 @@ function renderData(categoryName) {
       );
 
       $(".avtoCardsWrapp").appendChild(avtoCard);
+      console.log($(".avtoCardsWrapp"))
     }
   });
 }
