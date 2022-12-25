@@ -7,25 +7,155 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <!-- Font Awesome -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+
   <!-- MDB -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.1/mdb.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
   <link rel="stylesheet" href="./css/style.min.css" />
-
   <title>Competition</title>
 </head>
 
 <body>
   <header>
+    <nav class="navbar navbar-expand-lg navbar-lg">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="./images/LogoSVG.svg" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+          aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Categories</a>
+            </li>
+            <li class="nav-item dropHover">
+              <a class="nav-link" href="#">About Us
+                <div class="icons">
+                  <img src="./images/arrow2.png" class="ms-3 dropHoverItem" alt="img">
+                  <img src="./images/arrow.png" class="ms-3 dropHoverItem2" alt="img">
+                </div>
+
+              </a>
+              <ul class="dropdown1">
+                <li><a href="#">News</a></li>
+                <li><a href="#">Aboute</a></li>
+                <li><a href="#">Location</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropHover">
+              <a class="nav-link" href="#">Help center
+                <div class="icons">
+                  <img src="./images/arrow2.png" class="ms-3 dropHoverItem" alt="img">
+                  <img src="./images/arrow.png" class="ms-3 dropHoverItem2" alt="img">
+                </div>
+
+              </a>
+              <ul class="dropdown1">
+                <li><a href="#">News</a></li>
+                <li><a href="#">Aboute</a></li>
+                <li><a href="#">Location</a></li>
+              </ul>
+            </li>
+          </ul>
+          <div class="navbarRight">
+            <div class="navbarRightContent">
+              <div class="tell">
+                <a href="tel:18554200000">+1 855 420 0000</a>
+              </div>
+              <div class="LightDark">
+                <span class="moon"><i class="bi bi-moon-fill"></i></span>
+                <span class="sun"><i class="bi bi-sun"></i></span>
+              </div>
+              <div class="logout">
+                <button class="btn logoutbtn">
+                  Login
+                  <span class="icon_Modal ms-1"><i class="bi bi-box-arrow-in-right"></i></span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </nav>
+    <nav class="navbar fixed-top navbar-md">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="./images/LogoSVG.svg" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
+          aria-controls="offcanvasDarkNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasDarkNavbar"
+          aria-labelledby="offcanvasDarkNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
+              <img src="./images/LogoSVG.svg" alt="">
+            </h5>
+            <div class="closeIcon">
+              <i class="bi bi-x" data-bs-dismiss="offcanvas" aria-label="Close"></i>
+            </div>
+            </button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Categories</a>
+              </li>
+              <li class="nav-item dropHover">
+                <a class="nav-link dropMenus" href="#"><span>About Us</span>
+                </a>
+                <ul class="dropdown1">
+                  <li><a href="#">News</a></li>
+                  <li><a href="#">Aboute</a></li>
+                  <li><a href="#">Location</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropHover dropHover2">
+                <a class="nav-link dropMenus" href="#"><span>Help center</span>
+                </a>
+                <ul class="dropdown1">
+                  <li><a href="#">FAQ</a></li>
+                  <li><a href="#">Contact us</a></li>
+                </ul>
+              </li>
+            </ul>
+
+          </div>
+          <div class="navbarRight mb-5">
+            <div class="navbarRightContent ">
+              <div class="tell ms-3">
+                <a href="tel:18554200000">+1 855 420 0000</a>
+              </div>
+              <div class="LightDark">
+                <span class="moon"><i class="bi bi-moon-fill"></i></span>
+                <span class="sun"><i class="bi bi-sun"></i></span>
+              </div>
+              <div class="logout">
+                <button class="btn logoutbtn2">
+                  Login
+                  <span class="icon_Modal ms-1"><i class="bi bi-box-arrow-in-right"></i></span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
   </header>
-  <main>
 
-    <main>
-    </main>
 
-    <footer></footer>
+  <footer></footer>
 </body>
 <!-- MDB -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+  integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+  integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.1/mdb.min.js"></script>
 <script src="./js/plugin.js"></script>
 <script src="./js/main.js"></script>

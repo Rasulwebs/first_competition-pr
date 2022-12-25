@@ -1,0 +1,88 @@
+  <main>
+    <section class="WindowModal">
+      <div class="closeIcon modalClose">
+        <i class="bi bi-x " data-bs-dismiss="offcanvas" aria-label="Close"></i>
+      </div>
+      <h2 class="LoginText">Login</h2>
+      <p class="descLogin">Use the email and password that you login</p>
+      <form id="form">
+        <label for="name">
+
+        </label>
+        <div class="input-wrap input-wrap1">
+          <input type="email" id="name" class="emailInput" placeholder="Email" required>
+        </div>
+        <p></p>
+        <div class="input-wrap input-wrap2">
+          <input type="password" id="pas" class="passwordInput" placeholder="Password" required>
+          <i class="bi bi-eye"></i>
+          <i class="bi bi-eye-slash"></i>
+        </div>
+        <label for="pas" class="fill">
+        </label>
+        <div class="href text-end">
+          <a href="#">
+            Forgot password
+          </a>
+        </div>
+        <div class="descText">
+          <p>I want to create an account</p>
+        </div>
+        <div class="logout">
+          <button class="btn" type="submit">
+            Login
+            <span class="icon_Modal ms-1"><i class="bi bi-box-arrow-in-right"></i></span>
+          </button>
+        </div>
+      </form>
+    </section>
+    <section class="heroCarausel">
+      <div class="container">
+        <div id="carouselExampleIndicators" class="carousel slide" data-mdb-ride="carousel">
+          <div class="carousel-indicators carousel-indicators2">
+            <button type="button" data-mdb-target="#carouselExampleIndicators" data-mdb-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-mdb-target="#carouselExampleIndicators" data-mdb-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-mdb-target="#carouselExampleIndicators" data-mdb-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="text-wrapper">
+                <h3>Compact cars</h3>
+                <p>Rent cars as you are comfortable and where you are comfortable.</p>
+              </div>
+              <img src="./images/hero1.png" class="d-block w-100" alt="Wild Landscape" />
+            </div>
+            <div class="carousel-item">
+              <div class="text-wrapper">
+                <h3>Compact cars</h3>
+                <p>Rent cars as you are comfortable and where you are comfortable.</p>
+              </div>
+              <img src="./images/hero1.png" class="d-block w-100" alt="Camera" />
+            </div>
+            <div class="carousel-item">
+              <div class="text-wrapper">
+                <h3>Compact cars</h3>
+                <p>Rent cars as you are comfortable and where you are comfortable.</p>
+              </div>
+              <img src="./images/hero1.png" class="d-block w-100" alt="Exotic Fruits" />
+            </div>
+          </div>
+          <div class="btn-wrapper">
+            <button class="btn " type="button" data-mdb-target="#carouselExampleIndicators" data-mdb-slide="prev">
+              <div class="img-wrapp">
+                <img src="./images/leftIcon.png" alt="img">
+              </div>
+            </button>
+            <button class="btn" type="button" data-mdb-target="#carouselExampleIndicators" data-mdb-slide="next">
+              <div class="img-wrapp">
+                <img src="./images/rightIcon.png" alt="img">
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    </main>
