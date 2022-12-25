@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+$mtfont: "Montserrat" sans-serif;
+.container {
+  max-width: 1200px;
+  width: 100%;
+}
+.choseCarWrapp {
+  .chooseCarTitle {
+    font-family: $mtfont;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000;
+    text-align: center;
+  }
+
+  .chooseCarDesc {
+    max-width: 575px;
+
+    margin: 10px auto;
+    font-family: $mtfont;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #555555;
+  }
+
+  .avtoCategorylinskWrapp {
+    display: flex;
+    justify-content: center;
+    max-width: 480px;
+    width: 100%;
+    margin: auto;
+  }
+
+  .categoryLink {
+    background-color: #fff;
+    border: 1.5px solid #e5e7ea;
+    border-radius: 100px;
+    margin: 40px 8px;
+    text-align: center;
+
+    &:hover {
+      background: #f5f5f5;
+      cursor: pointer;
+    }
+
+    .avtoCategoryLinkText {
+      padding: 19px 40px;
+      font-family: $mtfont;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 20px;
+      color: #000;
+      margin: 0;
+    }
+  }
+
+  .avtoCard {
+    background: #f5f5f5;
+    border-radius: 16px;
+    max-width: 387px;
+    width: 100%;
+    padding: 30px 24px 30px 24px;
+    transition: 0.2s all ease;
+    margin: 6px;
+    &:hover {
+      background: #299764;
+      .avtoTitle,
+      .avtoStyle,
+      .cardInfotext,
+      .carInfoIcon {
+        color: #fff;
+      }
+    }
+    .cardImg {
+      width: 100%;
+    }
+    .carInfoIcon {
+      color: #000;
+      font-size: 20px;
+    }
+    .avtoTitle {
+      font-family: $mtfont;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 29px;
+      color: #000000;
+    }
+
+    .avtoStyle {
+      font-family: $mtfont;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 20px;
+      color: #555555;
+      margin-top: 8px;
+    }
+    .cardImgWrapp {
+      display: flex;
+      justify-content: center;
+    }
+    .avtiInfoWrapp {
+      display: flex;
+      align-items: center;
+    }
+    .cardInfoStylee {
+      display: flex;
+      align-items: center;
+      margin: 12px 0 12px 0;
+    }
+    .cardInfotext {
+      margin: 0 0 0 12px;
+      font-family: $mtfont;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      color: #000;
+    }
+    .rightInfoAvtoCard {
+      margin-left: 55px;
+    }
+  }
+  .allAvtoBtn {
+    padding: 18px 30px;
+    gap: 8px;
+    width: 173px;
+    height: 58px;
+    background: #299764;
+    border-radius: 100px;
+    color: #fff;
+    text-transform: capitalize;
+    font-family: $mtfont;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 40px;
+    margin-bottom: 140px;
+    &:hover {
+      background: #077743;
+    }
+    &:active {
+      background: #f5f5f5 !important;
+      color: #000;
+    }
+  }
+}
+.titleActiveLink {
+  background-color: #299764 !important;
+  p {
+    color: #fff !important;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .avtoCategoryLinkText {
+    padding: 19px 40px !important;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .categoryLink {
+    margin: 10px 8px;
+  }
+  .avtoCategoryLinkText {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 17px;
+    padding: 14px 20px !important;
+  }
+}
+@media only screen and (max-width: 390px) {
+  .categoryLink {
+    margin: 5px 8px;
+  }
+  .avtoCategoryLinkText {
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 15px;
+  }
+}

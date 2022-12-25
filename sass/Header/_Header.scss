@@ -372,9 +372,9 @@ header {
 
   height: 10px;
 }
-.fill{
-    color: red;
-    padding-left: 20px;
+.fill {
+  color: red;
+  padding-left: 20px;
 }
 @media only screen and (max-width: 992px) {
   .navbar-lg {
@@ -557,20 +557,32 @@ header {
       display: none;
     }
     .carousel-indicators2 {
-  position: absolute;
-  justify-content: center;
-  margin: 0;
-  align-items: center;
-  bottom: 30px;
-  left: 0px;
-}
-.carousel-indicators2 .active {
-  background: #ffffff;
-  border-radius: 100px;
-  width: 30px;
-  border: none;
+      position: absolute;
+      justify-content: center;
+      margin: 0;
+      align-items: center;
+      bottom: 30px;
+      left: 0px;
+    }
+    .carousel-indicators2 .active {
+      background: #ffffff;
+      border-radius: 100px;
+      width: 30px;
+      border: none;
 
-  height: 10px;
-}
+      height: 10px;
+    }
   }
+}
+.white {
+  color: white !important;
+}
+.dark {
+  color: black !important;
+}
+.bg-dark {
+  background: #000000 !important;
+}
+.bg-light {
+  background: white !important;
 }
