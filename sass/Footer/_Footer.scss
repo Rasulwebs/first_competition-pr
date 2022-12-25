@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+$mtfont: "Montserrat" sans-serif;
+
+.footer {
+  margin-top: 40px;
+padding: 10px 0 40px 0;
+.footerInfoWrapp{
+    display: flex;
+}
+.footerLinksTitle {
+    font-family: $mtfont;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000;
+    margin-bottom: 16px;
+  }
+.footerSponsorWrapp{
+    max-width: 240px;
+    width: 100%;
+display: flex;
+flex-direction: column;
+}
+.foterLinksWrapper{
+    max-width: 880px !important;
+    width: 100%;
+    margin-left: 60px;
+
+}
+  .footerDesc {
+    font-family: $mtfont;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #555555;
+    margin-top: 20px;
+  }
+  .rentalTitle {
+    font-family: $mtfont;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000;
+    max-width: 158px;
+    margin-top: 84px;
+  }
+  .footerLinksWrapp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 40px;
+  
+    .footerLink {
+      font-family: $mtfont;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 17px;
+      padding: 6px 0 6px 0;
+      color: #555555;
+      &:hover {
+        color: #000;
+        text-decoration-line: underline;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+      }
+    }
+    .footerLinkAdress {
+      font-family: $mtfont;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 17px;
+      color: #555555;
+    }
+  }
+  .footerMessengerLinksWrapp{
+    display: flex;
+    
+  i{
+    font-size: 20px;
+   margin: auto;
+  }
+  .meesengerLink{
+    width: 40px;
+height: 40px;
+display: flex;
+align-items: center;
+justify-content: center;
+    background-color: #000;
+    color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+ margin-right: 15px;
+a{
+    color: #fff;
+}
+  }
+  }
+  .instagram{
+    &:hover{
+        background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    }
+}
+.twitter{
+    &:hover{
+        background-color: rgba(40, 108, 255, 0.689);
+    }
+}
+.facebook{
+    &:hover{
+        background-color: rgb(1, 65, 204);
+    }
+}
+.whatsApp{
+    &:hover{
+        background-color: rgb(1, 204, 48);
+    }
+}
+.footerSponsorInfo{
+    max-width: 240px;
+    width: 100%;
+}
+hr{
+    width: 100% !important;
+}
+.topLinks{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap !important;
+}
+.footerContactLinksWrapp{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footerLinksWrapp{
+    min-width: 170px;
+}
+
+}
+
+@media only screen and (max-width:992px){
+    .footerInfoWrapp{
+       flex-direction: column;
+     
+    }
+    .foterLinksWrapper{
+        max-width: 1200px !important;
+        width: 100% !important;
+        margin-top: 40px;
+        margin-left: 0 !important;
+    }
+    .footerSponsorWrapp{
+        max-width: 1200px !important;
+        width: 100% !important;
+     justify-content: space-between;
+        flex-direction: row !important;
+        padding: 0 !important;
+        margin: 0 !important;
+       }
+}
+@media only screen and (max-width:576px){
+.rentalTitle{
+    margin-left: 10px;
+}
+.bottomFooterLinks{
+  display: inline-block !important;  
+
+}
+.companyy{
+    min-width: 140px !important;
+}
+}
