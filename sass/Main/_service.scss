@@ -1,0 +1,203 @@
+.moreBrend {
+  padding-top: 160px;
+}
+section {
+  .container {
+    .row-in_gap {
+      margin-top: 20px;
+      .row-in_col {
+        max-width: 570px;
+        height: 196px;
+        border-radius: 20px;
+        background-color: #f5f5f5 !important;
+
+        h3,
+        i {
+          padding: 20px 32px;
+        }
+        p {
+          max-width: 354px;
+          max-height: 184px;
+          text-align: start;
+          padding: 0 32px 20px;
+        }
+      }
+    }
+    .row-in_gap:hover {
+      .row-in_col {
+        background-color: #299764 !important;
+
+        h3,
+        i,
+        p {
+          color: white !important;
+        }
+      }
+    }
+  }
+}
+.container_card {
+  .title {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+
+    /* Text/Primary */
+
+    color: #000000;
+  }
+  .desc {
+    max-width: 590px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+    color: #555555;
+  }
+  .cardsWrapper {
+    margin-top: 94px;
+    margin-bottom: 32px;
+    position: relative;
+  }
+  .card {
+    padding: 15px;
+    background: #f5f5f5;
+    border-radius: 16px;
+    box-shadow: none;
+    .icons {
+      padding-top: 5px;
+      padding-right: 5px;
+      text-align: end;
+    }
+    .card-text {
+      margin-top: 29px;
+      p {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 22px;
+        /* or 138% */
+
+        display: flex;
+        align-items: flex-end;
+
+        color: #000000;
+      }
+    }
+    &:hover {
+      background: #299764;
+      color: #fff;
+      .card-text {
+        p {
+          color: #fff;
+        }
+      }
+    }
+  }
+  .border12 {
+    background: #ffffff;
+    border: 1.5px solid #e5e7ea;
+    border-radius: 20px;
+    padding: 32px 32px 0 32px;
+    overflow: hidden;
+  }
+  .cardWrapperImg {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    .personImg {
+      margin: auto;
+      position: absolute;
+      z-index: 1;
+    }
+    .leoLine {
+      background: #299764;
+      width: 300px;
+      height: 300px;
+      position: absolute;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+      top: 0%;
+      left: 50%;
+      margin-top: 140px;
+      transform: translate(-50%, -50%);
+      -webkit-transform: translate(-50%, -50%);
+      -moz-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      -o-transform: translate(-50%, -50%);
+    }
+  }
+  .cars-name {
+    display: flex;
+    justify-content: space-between;
+    overflow-x: scroll;
+    width: 100%;
+  }
+}
+.imgBrend {
+  margin: 0 20px;
+}
+.Unparalleled {
+  margin-top: 160px;
+}
+@media only screen and (max-width: 992px) {
+  .cars-name {
+    overflow: auto;
+    width: 100% !important;
+  }
+}
+
+// section{
+//   .container{
+//    .text-right{
+//     padding: 40px 0 0 32px;
+
+//    }
+//   }
+// }
+@media only screen and (max-width: 768px) {
+  .sm-mt {
+    margin-top: 10px !important;
+  }
+  .cardWrapperImg {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    .personImg {
+      margin: auto;
+      position: absolute;
+      z-index: 1;
+      display: none;
+    }
+    .leoLine {
+      background: #299764;
+      width: 300px;
+      height: 300px;
+      position: absolute;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+      top: 0%;
+      left: 50%;
+      transform: none;
+      -webkit-transform: none;
+      -moz-transform: none;
+      -ms-transform: none;
+      -o-transform: none;
+      display: none;
+      top: -100px;
+    }
+  }
+}
