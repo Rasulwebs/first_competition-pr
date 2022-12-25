@@ -47,6 +47,7 @@ $(".avtoCategorylinskWrapp").addEventListener("click", (e) => {
   // let categoryName=e.target.textContent.toLowerCase()
   // console.log(e.target.textContent.toLowerCase())
   $(".avtoCardsWrapp").innerHTML = "";
+
   renderData(e.target.textContent.toLowerCase());
 });
 renderData("compact");

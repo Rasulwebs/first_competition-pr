@@ -100,6 +100,50 @@ $mtfont: "Montserrat" sans-serif;
     background: #299764;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
+    padding: 40px 0 40px 0;
+    position: relative;
+    .carouselCard{
+        background-color: #fff;
+        max-width: 420px;
+        width: 100%;
+        padding: 24px 24px 24px 24px;
+        border-radius: 16px;
+        position: relative;
+        margin: auto;
+        min-height: 363px !important;
+        .nameMan{
+            font-family: $mtfont;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+color: #000;
+        }
+        .cintactemail{
+            font-family: $mtfont;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+color: #555555;
+        }
+        .workIcon{
+            position: absolute;
+            right: 20px;
+            top: 30px;
+            width: 30px;
+        }
+      }
+      .carousel-indicators {
+        position: absolute;
+   
+        bottom: -50px !important;
+    
+      }
+      .carousel-control-next-icon, .carousel-control-prev-icon{
+        color: rgba(255, 0, 0, 0.45) !important;
+      }
+
   }
 }
 @media only screen and (max-width: 992px) {
@@ -118,6 +162,12 @@ $mtfont: "Montserrat" sans-serif;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
     border-top-right-radius:unset !important;
+
+  
+
+
+
+
   }
 
   .commentWrapp {
@@ -146,6 +196,7 @@ $mtfont: "Montserrat" sans-serif;
       line-height: 36px;
     }
   }
+ 
 }
 
 @media only screen and (max-width: 576px) {

@@ -29,6 +29,9 @@
 .choseCarWrapp .avtoCategorylinskWrapp {
   display: flex;
   justify-content: center;
+  max-width: 480px;
+  width: 100%;
+  margin: auto;
 }
 .choseCarWrapp .categoryLink {
   background-color: #fff;
@@ -252,6 +255,47 @@
   background: #299764;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
+  padding: 40px 0 40px 0;
+  position: relative;
+}
+.comunityInfoWrapp .commentCarouselWrapp .carouselCard {
+  background-color: #fff;
+  max-width: 420px;
+  width: 100%;
+  padding: 24px 24px 24px 24px;
+  border-radius: 16px;
+  position: relative;
+  margin: auto;
+  min-height: 363px !important;
+}
+.comunityInfoWrapp .commentCarouselWrapp .carouselCard .nameMan {
+  font-family: "Montserrat" sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000;
+}
+.comunityInfoWrapp .commentCarouselWrapp .carouselCard .cintactemail {
+  font-family: "Montserrat" sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #555555;
+}
+.comunityInfoWrapp .commentCarouselWrapp .carouselCard .workIcon {
+  position: absolute;
+  right: 20px;
+  top: 30px;
+  width: 30px;
+}
+.comunityInfoWrapp .commentCarouselWrapp .carousel-indicators {
+  position: absolute;
+  bottom: -50px !important;
+}
+.comunityInfoWrapp .commentCarouselWrapp .carousel-control-next-icon, .comunityInfoWrapp .commentCarouselWrapp .carousel-control-prev-icon {
+  color: rgba(255, 0, 0, 0.45) !important;
 }
 
 @media only screen and (max-width: 992px) {

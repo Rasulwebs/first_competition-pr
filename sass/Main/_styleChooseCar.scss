@@ -32,6 +32,9 @@ $mtfont: "Montserrat" sans-serif;
   .avtoCategorylinskWrapp {
     display: flex;
     justify-content: center;
+    max-width: 480px;
+    width: 100%;
+    margin: auto;
   }
 
   .categoryLink {
